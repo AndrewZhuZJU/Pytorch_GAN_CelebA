@@ -24,8 +24,8 @@ Not that all the setting parameters for the modesl are in `args.py`, please chan
 		<td> LSGAN </td>
 	</tr>
 	<tr>
-		<td><img src='images/dcgan_animation.gif'></td>
-		<td><img src='images/lsgan_animation.gif'></td>
+		<td><img src='Images/dcgan_animation.gif'></td>
+		<td><img src='Images/lsgan_animation.gif'></td>
 	</tr>
 </table>
 
@@ -36,8 +36,8 @@ Not that all the setting parameters for the modesl are in `args.py`, please chan
 		<td> LSGAN </td>
 	</tr>
 	<tr>
-		<td><img src='images/dcgan_epoch40.png'></td>
-		<td><img src='images/lsgan_epoch40.png'></td>
+		<td><img src='Images/dcgan_epoch40.png'></td>
+		<td><img src='Images/lsgan_epoch40.png'></td>
 	</tr>
 </table>
 
