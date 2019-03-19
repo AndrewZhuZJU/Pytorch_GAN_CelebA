@@ -19,14 +19,14 @@ Not that all the setting parameters for the modesl are in `args.py`, please chan
 * Animation of generated images with fixed noise (or condition labels) during training progress
 
 <table align='center'>
-	<tr>
+	<tr align='center'>
 		<td> DCGAN </td>
 		<td> LSGAN </td>
 	</tr>
 	<tr>
 		<td><img src='Images/dcgan_animation.gif'></td>
 		<td><img src='Images/lsgan_animation.gif'></td>
-	</tr>
+	</tr align='center'>
 </table>
 
 * Generated images in Epoch 40
