@@ -16,28 +16,40 @@ $ python main_DCGAN.py
 Not that all the setting parameters for the modesl are in `args.py`, please change properly.
 
 ## Results
+* Generated images in Epoch 40
+<table align='center'>
+	<tr align=center>
+		<td> DCGAN </td>
+		<td> LSGAN </td>
+		<td> WGAN </td>
+		<td> WGAN-GP </td>
+		<td> CGAN(Up:Male, Bottom:Female) </td>
+	</tr>
+	<tr align='center'>
+		<td><img src='Images/dcgan_epoch40.png'></td>
+		<td><img src='Images/lsgan_epoch40.png'></td>
+		<td><img src='Images/wgan_epoch40.png'></td>
+		<td><img src='Images/wgan-gp_epoch40.png'></td>
+		<td><img src='Images/cgan_epoch40.png'></td>
+	</tr>
+</table>
+
 * Animation of generated images with fixed noise (or condition labels) during training progress
 
 <table align='center'>
 	<tr align='center'>
 		<td> DCGAN </td>
 		<td> LSGAN </td>
+		<td> WGAN </td>
+		<td> WGAN-GP </td>
+		<td> CGAN(Up:Male, Bottom:Female) </td>
 	</tr>
-	<tr>
+	<tr align='center'>
 		<td><img src='Images/dcgan_animation.gif'></td>
 		<td><img src='Images/lsgan_animation.gif'></td>
-	</tr align='center'>
-</table>
-
-* Generated images in Epoch 40
-<table align='center'>
-	<tr>
-		<td> DCGAN </td>
-		<td> LSGAN </td>
-	</tr>
-	<tr>
-		<td><img src='Images/dcgan_epoch40.png'></td>
-		<td><img src='Images/lsgan_epoch40.png'></td>
+		<td><img src='Images/wgan_animation.gif'></td>
+		<td><img src='Images/wgan-gp_animation.gif'></td>
+		<td><img src='Images/cgan_animation.gif'></td>
 	</tr>
 </table>
 
