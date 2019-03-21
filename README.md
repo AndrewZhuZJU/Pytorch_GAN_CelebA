@@ -21,16 +21,20 @@ Not that all the setting parameters for the modesl are in `args.py`, please chan
 	<tr align=center>
 		<td> DCGAN </td>
 		<td> LSGAN </td>
-		<td> WGAN </td>
-		<td> WGAN-GP </td>
 		<td> CGAN(Up:Male, Bottom:Female) </td>
 	</tr>
 	<tr align='center'>
 		<td><img src='Images/dcgan_epoch40.png'></td>
 		<td><img src='Images/lsgan_epoch40.png'></td>
+		<td><img src='Images/cgan_epoch40.png'></td>
+	</tr>
+	<tr align=center>
+		<td> WGAN </td>
+		<td> WGAN-GP </td>
+	</tr>
+	<tr align='center'>
 		<td><img src='Images/wgan_epoch40.png'></td>
 		<td><img src='Images/wgan-gp_epoch40.png'></td>
-		<td><img src='Images/cgan_epoch40.png'></td>
 	</tr>
 </table>
 
@@ -40,16 +44,20 @@ Not that all the setting parameters for the modesl are in `args.py`, please chan
 	<tr align='center'>
 		<td> DCGAN </td>
 		<td> LSGAN </td>
-		<td> WGAN </td>
-		<td> WGAN-GP </td>
 		<td> CGAN(Up:Male, Bottom:Female) </td>
 	</tr>
 	<tr align='center'>
 		<td><img src='Images/dcgan_animation.gif'></td>
 		<td><img src='Images/lsgan_animation.gif'></td>
+		<td><img src='Images/cgan_animation.gif'></td>
+	</tr>
+	<tr align='center'>
+		<td> WGAN </td>
+		<td> WGAN-GP </td>
+	</tr>
+	<tr align='center'>
 		<td><img src='Images/wgan_animation.gif'></td>
 		<td><img src='Images/wgan-gp_animation.gif'></td>
-		<td><img src='Images/cgan_animation.gif'></td>
 	</tr>
 </table>
 
