@@ -2,7 +2,7 @@
 Pytorch implementation of DCGAN, CDCGAN, LSGAN, WGAN and WGAN-GP for CelebA dataset.
 
 ## Usage
-### 1. Download the CelebA dataset, and aligned version is used in this repo.
+### 1. Download the [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) dataset, and aligned version is used in this repo.
 ### 2. Clone the repo
 ```bash
 $ git clone https://github.com/AndrewZhuZJU/Pytorch_GAN_CelebA.git
@@ -62,10 +62,50 @@ Not that all the setting parameters for the modesl are in `args.py`, please chan
 </table>
 
 ## Loss Plot
-Coming soon...
+Take DCGAN  for example:
+<table align='center'>
+	<tr align=center>
+		<td> Generator Loss </td>
+		<td> Discriminator Loss </td>
+	</tr>
+	<tr align='center'>
+		<td><img src='Loss/dcgan_g.png'></td>
+		<td><img src='Loss/dcgan_d.png'></td>
+	</tr>
+</table>
 
 ## Evaluation
-Coming soon...
+* Inception score calculated in Epoch 40 (30K generated images)
+<table align='center'>
+	<tr align=center>
+		<td> DCGAN </td>
+		<td> LSGAN </td>
+		<td> WGAN </td>
+		<td> WGAN-GP </td>
+	</tr>
+	<tr align='center'>
+		<td>2.10 \pm 0.04</td>
+		<td>2.08 \pm 0.02</td>
+		<td>2.20 \pm 0.02</td>
+		<td>1.97 \pm 0.02</td>
+	</tr>
+</table>
+
+* Inception score calculated in Epoch 20 (30K generated images)
+<table align='center'>
+	<tr align=center>
+		<td> DCGAN </td>
+		<td> LSGAN </td>
+		<td> WGAN </td>
+		<td> WGAN-GP </td>
+	</tr>
+	<tr align='center'>
+		<td> 2.07 \pm 0.03</td>
+		<td> 1.95 \pm 0.03</td>
+		<td> 2.05 \pm 0.02</td>
+		<td> 2.00 \pm 0.02</td>
+	</tr>
+</table>
 
 ## Development Environment
 * Ubuntu 16.04 LTS
@@ -84,8 +124,4 @@ Coming soon...
 
 [4.Improved Training of Wasserstein GANs](https://arxiv.org/abs/1704.00028) 
 
-[5.Least Squares Generative Adversarial Networks](https://arxiv.org/abs/1611.04076) 
-
-[6.pytorch-generative-model-collections](https://github.com/znxlwm/pytorch-generative-model-collections) 
-
-[7.https://github.com/yunjey/StarGAN](https://github.com/yunjey/StarGAN)
+[5.Least Squares Generative Adversarial Networks](https://arxiv.org/abs/1611.04076)
