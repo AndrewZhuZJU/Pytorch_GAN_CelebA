@@ -76,10 +76,16 @@ Coming soon...
 * Others Dependencies: numpy, imageio, torchvision, tensorboard, etc.
 
 ## References
-[1.Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434） 
-[2.Conditional Generative Adversarial Nets](https://arxiv.org/abs/1411.1784) 
+[1.Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434)
+
+[2.Conditional Generative Adversarial Nets](https://arxiv.org/abs/1411.1784)
+
 [3.Wasserstein GAN](https://arxiv.org/abs/1701.07875) 
+
 [4.Improved Training of Wasserstein GANs](https://arxiv.org/abs/1704.00028) 
+
 [5.Least Squares Generative Adversarial Networks](https://arxiv.org/abs/1611.04076) 
+
 [6.pytorch-generative-model-collections](https://github.com/znxlwm/pytorch-generative-model-collections) 
+
 [7.https://github.com/yunjey/StarGAN](https://github.com/yunjey/StarGAN)
