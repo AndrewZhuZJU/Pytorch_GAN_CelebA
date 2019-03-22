@@ -61,19 +61,6 @@ Not that all the setting parameters for the modesl are in `args.py`, please chan
 	</tr>
 </table>
 
-## Loss Plot
-Take DCGAN  for example:
-<table align='center'>
-	<tr align=center>
-		<td> Generator Loss </td>
-		<td> Discriminator Loss </td>
-	</tr>
-	<tr align='center'>
-		<td><img src='Loss/dcgan_g.png'></td>
-		<td><img src='Loss/dcgan_d.png'></td>
-	</tr>
-</table>
-
 ## Evaluation
 * Inception score calculated in Epoch 40 (30K generated images)
 <table align='center'>
@@ -84,10 +71,10 @@ Take DCGAN  for example:
 		<td> WGAN-GP </td>
 	</tr>
 	<tr align='center'>
-		<td>2.10 \pm 0.04</td>
-		<td>2.08 \pm 0.02</td>
-		<td>2.20 \pm 0.02</td>
-		<td>1.97 \pm 0.02</td>
+		<td>2.10 $\pm$ 0.04</td>
+		<td>2.08 $\pm$ 0.02</td>
+		<td>2.20 $\pm$ 0.02</td>
+		<td>1.97 $\pm$ 0.02</td>
 	</tr>
 </table>
 
@@ -100,12 +87,30 @@ Take DCGAN  for example:
 		<td> WGAN-GP </td>
 	</tr>
 	<tr align='center'>
-		<td> 2.07 \pm 0.03</td>
-		<td> 1.95 \pm 0.03</td>
-		<td> 2.05 \pm 0.02</td>
-		<td> 2.00 \pm 0.02</td>
+		<td> 2.07 $\pm$ 0.03</td>
+		<td> 1.95 $\pm$ 0.03</td>
+		<td> 2.05 $\pm$ 0.02</td>
+		<td> 2.00 $\pm$ 0.02</td>
 	</tr>
 </table>
+
+## Loss Plot
+Take DCGAN  for example:
+<table align='center'>
+	<tr align=center>
+		<td> Generator Loss </td>
+	</tr>
+	<tr align='center'>
+		<td><img src='Loss/dcgan_g.png'></td>
+	</tr>
+	<tr align=center>
+		<td> Discriminator Loss </td>
+	</tr>
+	<tr align='center'>
+		<td><img src='Loss/dcgan_d.png'></td>
+	</tr>
+</table>
+
 
 ## Development Environment
 * Ubuntu 16.04 LTS
